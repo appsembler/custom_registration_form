@@ -13,7 +13,7 @@ class ExtraInfo(models.Model):
 
     user = models.OneToOneField(USER_MODEL, null=True)
     MARKETS = (
-        ("0", "N/A"),
+        ("10", "N/A"),
         ("23", "Atlanta"),
         ("60", "Austin"),
         ("46", "Baltimore"),
